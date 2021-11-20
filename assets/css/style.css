@@ -485,7 +485,8 @@ FORM
  p a{
      color: blue;
  }
- @media  screen and (max-width: 435px) {
+
+ @media  screen and (max-width: 480px) {
      .footer p {
          font-size: 0.85rem;
      }
