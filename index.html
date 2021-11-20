@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <!-- handling content view in all browser -->
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <!-- font resource -->
@@ -21,6 +21,7 @@
                 <a href="index.html" class="nav-logo">
                     <img src="./assets/images/logo.svg" alt="simply recipes" />
                 </a>
+                <!-- menu side bar -->
                 <button type="button" class="btn nav-btn">
                     <i class="fas fa-align-justify"></i>
                 </button>
@@ -31,9 +32,24 @@
                 <a href="about.html" class="nav-link">About</a>
                 <a href="tags.html" class="nav-link">Tags</a>
                 <a href="recipes.html" class="nav-link">Recipes</a>
+                <div class="nav-link contact-link">
+                    <a href="contact.html" class="btn" id="contact-btn">Contact</a>
+                </div>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
+    <!-- main content -->
+    <main class="page"></main>
+    <!-- end of main content -->
+    <!-- footer -->
+    <footer class="oage-footer">
+        <p> 
+            &copy; <span id="date"></span>
+            <span class="footer-logo">SimplyRecipes,</span>
+            Recode reference by <a href="https://www.johnsmilga.com/" target="blank">John Smilga</a>
+        </p>
+    </footer>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
