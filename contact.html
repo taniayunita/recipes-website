@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
     <!-- handling content view in all browser -->
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <!-- font resource -->
@@ -41,7 +43,78 @@
     <!-- end of navbar -->
     <!-- main content -->
     <main class="main-page">
-        <h1>Contact Page</h1>
+        <section class="contact-container">
+            <article class="conatct-info">
+                <h3>Want to Get In Touch</h3>
+                <p>
+                    Four dollar toast biodiesel plaid salvia actually pickled banjo
+                    bespoke mlkshk intelligentsia edison bulb synth.
+                  </p>
+                  <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+                  <p>
+                    Hashtag swag health goth air plant, raclette listicle fingerstache
+                    cold-pressed fanny pack bicycle rights cardigan poke.
+                  </p>
+            </article>
+            <article>
+                <form action="" class="form contact-form">
+                    <!-- singgle row field input -->
+                    <div class="form-row">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" name="name" id="name" class="form-input" />
+                    </div>
+                    <!-- end singgle row field input -->
+                    <!-- singgle row field input -->
+                    <div class="form-row">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="text" name="email" id="email" class="form-input" />
+                    </div>
+                    <!-- end singgle row field input -->
+                    <!-- singgle row field input -->
+                    <div class="form-row">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea name="message" id="message" class="form-textarea" ></textarea>
+                    </div>
+                    <!-- end singgle row field input -->
+                    <button type="submit" class="btn btn-block">Submit</button>
+                </form>
+            </article>
+        </section>
+        <section class="featured-recipes">
+            <h5 class="featured-title">Look At this Awesomeresource!</h5>
+            <!-- list container of recipes / right side after header -->
+            <div class="list-container">
+                <div class="recipes-list">
+                    <!-- card recipe -->
+                    <a href="single-recipe.html" class="recipe">
+                        <img src="./assets/images/recipe-1.jpeg" alt="food" class="img recipe-img" />
+                        <h5>Carne Asada</h5>
+                        <p>Prep : 15min | Cook: 5min</p>
+                    </a>
+                    <!-- end card recipe -->
+                    <!-- card recipe -->
+                    <a href="single-recipe.html" class="recipe">
+                        <img src="./assets/images/recipe-2.jpeg" alt="food" class="img recipe-img" />
+                        <h5>Greek Ribs</h5>
+                        <p>Prep : 15min | Cook: 5min</p>
+                    </a>
+                    <!-- end card recipe -->
+                    <!-- card recipe -->
+                    <a href="single-recipe.html" class="recipe">
+                        <img src="./assets/images/recipe-3.jpeg" alt="food" class="img recipe-img" />
+                        <h5>Vegetable</h5>
+                        <p>Prep : 15min | Cook: 5min</p>
+                    </a>
+                    <!-- end card recipe -->
+                    <!-- card recipe -->
+                    <a href="single-recipe.html" class="recipe">
+                        <img src="./assets/images/recipe-4.jpeg" alt="food" class="img recipe-img" />
+                        <h5>Banana Pancakes</h5>
+                        <p>Prep : 15min | Cook: 5min</p>
+                    </a>
+                    <!-- end card recipe -->
+                </div>
+        </section>
     </main>
     <!-- end of main content -->
     <!-- footer -->
